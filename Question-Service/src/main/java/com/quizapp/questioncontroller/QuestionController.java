@@ -77,4 +77,10 @@ public class QuestionController {
 		return questionService.getScore(responses);
 	}
 
+/*	@GetMapping("getquestion/{id}")
+	public ResponseEntity<Question> getQuestionById(@PathVariable int id)
+	{
+		return questionService.getQuestionById(id);
+	}*/
+
 }
